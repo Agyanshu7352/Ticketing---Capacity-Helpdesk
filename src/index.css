@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-blue: #0052CC;
+    --color-sidebar-bg: #0747A6;
+    --color-hover-blue: #0065FF;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ticket-item:hover {
+    background-color: #DEEBFF;
+}
