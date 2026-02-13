@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import TicketList from './TicketList';
 import TicketConversation from './TicketConversation';
 import TicketInfoPanel from './TicketInfoPanel';
-import TopBar from './TopBar';
+import TopBar from './Topbar';
 
 function MainLayout({ user, onLogout }) {
     const [tickets, setTickets] = useState([]);
